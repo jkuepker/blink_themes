@@ -1,22 +1,23 @@
 // exported as json from https://terminal.sexy
 var theme = {
   color: [
-    '#27214d', // #base02
-    '#E9C8D3', // #red
-    '#A9D400', // #green
-    '#FCD23E', // #yellow
-    '#C6E4E4', // #blue
-    '#D42450', // #magenta
-    '#00A7B5', // #cyan
-    '#C2C3BE', // #base2
-    '#60757B', // none tune bright color for zsh-autocompletion. See #381
-    '#D95702', // #orange
-    '#586e75', // base01
-    '#657b83', // base00
-    '#839496', // base0
-    '#301D78', // #violet
-    '#93A1A1', // #base1
-    '#DADAD7', // #base3
+
+    '#08040b',
+    '#d42450',
+    '#a9d400',
+    '#fcd23e',
+    '#2c2273',
+    '#d42450',
+    '#00a7b5',
+    '#e9c8d3',
+    '#27214d',
+    '#d42450',
+    '#a9d400',
+    '#d95702',
+    '#301d78',
+    '#d42450',
+    '#00a7b5',
+    '#c6e4e4',
   ],
   foreground: '#839496', // base0
   background: '#08040B', // #base03
