@@ -1,27 +1,27 @@
-var black       = '#08040b';
-var red         = '#d42450'; // red
-var green       = '#a9d400'; // green
-var yellow      = '#d95702'; // yellow
-var blue        = '#2c2273'; // blue
-var magenta     = '#d42450'; // pink
-var cyan        = '#00a7b5'; // cyan
-var white       = '#e9c8d3'; // light gray
-var lightBlack  = '#27214d'; // medium gray
-var lightRed    = '#d42450'; // red
-var lightGreen  = '#a9d400'; // green
-var lightYellow = '#d95702'; // yellow
-var lightBlue   = '#301d78'; // blue
-var lightMagenta= '#d42450'; // pink
-var lightCyan   = '#00a7b5'; // cyan
-var lightWhite  = '#c6e4e4'; // white
+// exported as json from https://terminal.sexy
+var theme = {
+  color: [
+    '#27214d', // #base02
+    '#E9C8D3', // #red
+    '#A9D400', // #green
+    '#FCD23E', // #yellow
+    '#C6E4E4', // #blue
+    '#D42450', // #magenta
+    '#00A7B5', // #cyan
+    '#C2C3BE', // #base2
+    '#60757B', // none tune bright color for zsh-autocompletion. See #381
+    '#D95702', // #orange
+    '#586e75', // base01
+    '#657b83', // base00
+    '#839496', // base0
+    '#301D78', // #violet
+    '#93A1A1', // #base1
+    '#DADAD7', // #base3
+  ],
+  foreground: '#839496', // base0
+  background: '#08040B', // #base03
+};
 
-term_set('color-palette-overrides',
-                 [ black , red, green, yellow,
-                  blue , magenta, cyan, white,
-                  lightBlack, lightRed, lightGreen, lightYellow,
-                  lightBlue, lightMagenta, lightCyan, lightWhite ]);
-
-term_set('cursor-color', 'rgba(0, 167, 181, 0.3)');
-term_set('foreground-color', '#d42450');
-term_set('background-color', #26224a);
+term_applySexyTheme(theme);
+term_set('cursor-color', 'rgba(131, 148, 150, 0.3)'); // base0
 term_set('cursor-blink', false);
